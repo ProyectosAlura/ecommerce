@@ -1,0 +1,11 @@
+:root{
+    --fuente: 'Roboto', sans-serif;
+    --color-fondo:#ffffff;
+    --color-gris:#F5F5F5;
+    --color-azul:#2A7AE4;
+    --color-fondo-footer:#EAF2FD;
+}
+
+body{
+    font-family: var(--fuente);
+}
