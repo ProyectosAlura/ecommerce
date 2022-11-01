@@ -1,0 +1,71 @@
+.footer__datos{
+    background-color: var(--color-fondo-footer);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+/* Lista */
+.footer__lista > li{
+    padding: 0.5rem 0px;
+}
+
+/* Formulario*/
+
+.formulario{
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    width: 34%;
+    height: auto;
+}
+
+.formulario > input{
+    margin-top: 0.5rem;
+}
+
+.formulario__titulo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.8rem 0px;
+}
+
+.formulario__campo{
+    font-size: 0.9rem;
+    font-weight: 300;
+    height: 1.8rem;
+    outline: none;
+}
+
+.formulario__area{
+    font-family: var(--fuente);
+    font-size: 0.9rem;
+    font-weight: 300;
+    height: 5rem;
+    margin-top: 0.5rem;
+    outline: none;
+    resize: none;
+}
+
+.formulario__boton{
+    background-color: var(--color-azul);
+    border: none;
+    color: var(--color-fondo);
+    height: 2rem;
+    width:30%;
+}
+
+/* Seccion creditos */
+
+.creditos{
+    height: auto;
+    text-align: center;
+}
+
+.creditos__titulo{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0px;
+}
