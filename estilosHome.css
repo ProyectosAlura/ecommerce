@@ -1,0 +1,58 @@
+section{
+    padding: 1.5rem 3rem;
+}
+
+.encabezado__seccion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado__seccion___titulo{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.encabezado__seccion___enlace{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-azul);
+}
+
+.encabezado__seccion___enlace > img{
+    margin-left: 0.3rem;
+}
+
+/* tarjetas*/
+
+.tarjetas{  /*Container*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+/*
+.tarjeta{
+    padding: 0.5rem;
+}*/
+
+.tarjeta__container___titulo{
+    font-size: 1.05rem;
+    font-weight: 300;
+    padding: 0.3rem 0px;
+}
+
+.tarjeta__container___precio{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.3rem 0px;
+}
+
+.tarjeta__container___enlace{
+    color: var(--color-azul);
+    font-size: 1rem;
+    padding: 0.3rem 0px;
+    text-decoration: none;
+}
