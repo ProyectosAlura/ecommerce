@@ -27,23 +27,22 @@ section{
 
 .tarjetas{  /*Container*/
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
 
-/*
 .tarjeta{
-    padding: 0.5rem;
-}*/
+    width: 176px;
+    height: auto;
+}
 
 .tarjeta__container___titulo{
     font-size: 1.05rem;
     font-weight: 300;
     padding: 0.3rem 0px;
 }
-
 
 .tarjeta__container___precio{
     font-size: 1rem;
@@ -56,4 +55,47 @@ section{
     font-size: 1rem;
     padding: 0.3rem 0px;
     text-decoration: none;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width:0px) and (max-width:755px){
+    section{
+        padding: 1.5rem 1rem;
+    }
+
+    .tarjetas > li:nth-last-child(-n+4){ 
+        display: none;
+    }
+
+    .tarjeta{
+        width: auto;
+    }
+
+    .tarjeta > img{
+        width: 40vw;
+    }
+
+}
+
+@media screen and (min-width:756px) and (max-width:1024px){
+    .tarjetas > li:nth-last-child(-n+2){ 
+        display: none;
+    }
+
+    .tarjeta{
+        width: auto;
+        height: auto;
+    }
+
+    .tarjeta > img{
+        width: calc(176px * 0.75);
+        height: calc(176px * 0.75);
+    }
+
+    .tarjeta__container___titulo{
+        word-wrap: break-word;
+        max-width: calc(176px * 0.75);
+    }
 }

@@ -33,6 +33,8 @@
 }
 
 .formulario__campo{
+    background-color: var(--color-fondo);
+    border: none;
     font-size: 0.9rem;
     font-weight: 300;
     height: 1.8rem;
@@ -40,6 +42,7 @@
 }
 
 .formulario__area{
+    border: none;
     font-family: var(--fuente);
     font-size: 0.9rem;
     font-weight: 300;
@@ -68,4 +71,39 @@
     font-size: 1rem;
     font-weight: 500;
     padding: 0.5rem 0px;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width:0px) and (max-width:755px){
+    .footer__datos{
+        flex-direction: column;
+        padding: 1rem 1rem;
+        align-items: center;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .formulario__titulo{
+        text-align: center;
+    }
+
+    .footer__lista{
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .formulario__boton{
+        width:32%;
+    }
+}
+
+@media screen and (min-width:756px) and (max-width:1024px){
+    .formulario__boton{
+        width:45%;
+    }
 }
