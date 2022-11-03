@@ -42,11 +42,19 @@
 }
 
 .encabezado__boton{ /*Boton de login*/
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
     background: none;
     border: 1px solid var(--color-azul);
     color: var(--color-azul);
+    /*
     height: 3rem;
     width: 10rem;
+    */
+    padding: 1rem 4rem;
+    
+
 }
 
 .encabezado__boton:hover{
@@ -140,8 +148,11 @@
     }
 
     .encabezado__boton{
+        /*
         height: 3rem;
         width: 8rem;
+        */
+        padding: 0.6rem 2.7rem;
     }
     
     /* Banner */
