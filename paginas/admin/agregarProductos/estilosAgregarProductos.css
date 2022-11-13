@@ -1,0 +1,118 @@
+.encabezado__boton{
+    padding: 1rem 3rem;
+}
+
+main{
+    background-color: var(--color-gris);
+}
+
+.formulario__agregarProductos{
+    margin: 0px auto;
+    padding: 2rem 0rem;
+    width: 50%;
+}
+
+.seccion__titulo{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.container__formulario{
+    background-color: var(--color-fondo);
+    border-bottom: 1px solid var(--color-texto-campo);
+    border-radius: 0.5rem;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.container__formulario___titulo{
+    color: var(--color-texto-campo);
+    display: block;
+    padding: 0.8rem;
+}
+
+.container__formulario___campo{
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1rem;
+    height: 1.4rem;
+    outline: none;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.area{
+    border: none;
+    border-bottom: 1px solid var(--color-texto-campo);
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 5rem;
+    margin-top: 1rem;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+
+.area::placeholder{
+    color: var(--color-texto-campo);
+    font-size: 1rem;
+    font-family: var(--fuente);
+    padding: 0.6rem;
+}
+
+.area:focus{
+    padding: 0.6rem;
+}
+
+.botonAgregar{
+    background-color: var(--color-azul);
+    border: none;
+    box-sizing: border-box;
+    color: var(--color-fondo);
+    font-size: 1rem;
+    height: 4rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+@media screen and (min-width:0px) and (max-width:755px){
+    
+    .encabezado__boton{
+        text-align:start;
+        font-size: 0.8rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .formulario__agregarProductos{
+        width: 90%;
+    }
+
+    .seccion__titulo{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (min-width:756px) and (max-width:1024px){
+    .encabezado__boton{
+        text-align:start;
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .formulario__agregarProductos{
+        width: 90%;
+    }
+
+    .seccion__titulo{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .formulario__agregarProductos{
+        height: 55vh;
+    }
+}
