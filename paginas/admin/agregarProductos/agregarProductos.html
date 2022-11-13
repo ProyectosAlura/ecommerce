@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/estilosPrincipales.css">
+    <link rel="stylesheet" href="/estilos/cabecera.css">
+    <link rel="stylesheet" href="/paginas/admin/agregarProductos/estilosAgregarProductos.css">
+    <link rel="stylesheet" href="/estilos/piePagina.css">
+</head>
+<body>
+    <header>
+        <section class="encabezado">
+            <div class="logo">
+                <img src="/imagenes/Vector.png" alt="" srcset="" class="logo__imagen">
+                <p class="logo__texto"><span>Alura</span>Geek</p>
+            </div>
+            <div class="barraBusqueda">
+                <input class="barraBusqueda__campo" type="search" name="" id="" placeholder="¿Qué deseas buscar?">
+                <input type="image" src="/imagenes/lupa.png" alt="lupa" >
+            </div>
+            <a href="/paginas/admin/productos/productos.html" class="encabezado__boton">Menú Administrador</a>
+        </section>
+    </header>
+    <main>
+        <form action="" class="formulario__agregarProductos">
+            <fieldset>
+                <legend class="seccion__titulo">Agregar nuevo Producto</legend>
+                <div class="container__formulario">
+                    <label for="url" class="container__formulario___titulo">URL de la imagen</label>
+                    <input type="text" name="" id="url" class="container__formulario___campo">
+                </div>
+                <div class="container__formulario">
+                    <label for="categoria" class="container__formulario___titulo">Categoria</label>
+                    <input type="text" name="" id="categoria" class="container__formulario___campo">
+                </div>
+                <div class="container__formulario">
+                    <label for="nombreProducto" class="container__formulario___titulo">Nombre del producto</label>
+                    <input type="text" name="" id="nombreProducto" class="container__formulario___campo">
+                </div>
+                <div class="container__formulario">
+                    <label for="precioProducto" class="container__formulario___titulo">Precio del producto</label>
+                    <input type="text" name="" id="precioProducto" class="container__formulario___campo">
+                </div>
+                <textarea placeholder="Descripción del producto" class="area"></textarea>
+                <input type="submit" value="Agregar Producto" class="botonAgregar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <section class="footer__datos">
+            <div class="logo">
+                <img src="/imagenes/Vector.png" alt="" srcset="" class="logo__imagen">
+                <p class="logo__texto"><span>Alura</span>Geek</p>
+            </div>
+            <ul class="footer__lista">
+                <li>Quiénes Somos</li>
+                <li>Política de Privacidad</li>
+                <li>Programa de Fidelidad</li>
+                <li>Nuestras tiendas</li>
+                <li>Quiero ser Franquiciado</li>
+                <li>Anuncie Aquí</li>
+            </ul>
+            <form action="" class="formulario">
+                <h3 class="formulario__titulo">Hable con Nosotros</h3>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="" id="nombre" class="formulario__campo">
+                <textarea name="" id="" cols="30" rows="10" class="formulario__area" placeholder="Escribe tu mensaje"></textarea>
+                <input class="formulario__boton" type="submit" value="Enviar mensaje">
+            </form>
+        </section>
+        <section class="creditos">
+            <h3 class="creditos__titulo">Desarrollado por: Daniel Caro</h3>
+            <p class="creditos__texto">2022</p>
+        </section>
+    </footer>
+</body>
+</html>
