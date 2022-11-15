@@ -97,14 +97,16 @@
 }
 
 .banner__container___boton{
+    display: inline-block;
+    text-decoration: none;
     background-color: var(--color-azul) ;
     border: none;
     color: var(--color-fondo);
     font-size: 0.9rem;
     font-weight: 300;
     margin: 0.3rem 0px ;
-    height: 3rem;
-    width: 8rem;
+    padding: 1rem 2.5rem;
+    
 }
 
 .banner__container___boton:hover{

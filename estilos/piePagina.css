@@ -7,7 +7,12 @@
 }
 
 /* Lista */
-.footer__lista > li{
+.footer__lista > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__lista > a > li{
     padding: 0.5rem 0px;
 }
 
@@ -58,16 +63,25 @@
     color: var(--color-fondo);
     height: 2rem;
     width:30%;
+    cursor:pointer;
+}
+
+.formulario__boton:hover{
+    transform: scale(1.05);
+    cursor:pointer;/*Cambiando el cursor*/
 }
 
 /* Seccion creditos */
 
 .creditos{
+    padding: 1rem 0px;
     height: auto;
     text-align: center;
 }
 
 .creditos__titulo{
+    font-family: var(--fuente);
+    color: black;
     font-size: 1rem;
     font-weight: 500;
     padding: 0.5rem 0px;

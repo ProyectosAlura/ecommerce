@@ -34,6 +34,11 @@
     background-color: var(--color-azul);
 }
 
+.formulario__container__boton:hover{
+    transform: scale(1.03);
+    cursor:pointer;/*Cmabiando el cursor*/
+}
+
 /* Responsive */
 
 @media screen and (min-width:0px) and (max-width:755px){
