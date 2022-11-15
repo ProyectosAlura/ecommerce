@@ -94,6 +94,10 @@ section{
     background-color: var(--color-azul);
 }
 
+.encabezado__seccion___boton:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+}
 
 @media screen and (min-width:0px) and (max-width:755px){
     section{
@@ -141,7 +145,7 @@ section{
 
 @media screen and (min-width:756px) and (max-width:1024px){
     .tarjetas{
-        gap: calc((100% - (176px * 4 * 0.9))/3 );
+        gap: calc((100% - (176px * 4 * 0.9))/3 ); /* Calculo el espacio*/
     }
 
     .tarjeta{
